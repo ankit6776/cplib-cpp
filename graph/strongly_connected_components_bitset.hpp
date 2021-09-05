@@ -6,7 +6,7 @@
 // Directed graph library to find strongly connected components （強連結成分分解）
 // 0-indexed directed graph
 // - using std::bitset
-// - Fast for dense graphs
+// - Fast for dense graphs (edegs ~ V*V ) 
 // Complexity: O(V^2/64)
 // Verified: CF1268D <https://codeforces.com/contest/1268/submission/68125495>
 template <int VMAX> struct DirectedGraphSCC64 {
